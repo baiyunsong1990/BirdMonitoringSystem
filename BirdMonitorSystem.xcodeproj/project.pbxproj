@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4F0B6DA41F53F8FD00A10B87 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0B6DA31F53F8FD00A10B87 /* AppDelegate.swift */; };
+		4F0B6DA61F53F8FD00A10B87 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0B6DA51F53F8FD00A10B87 /* FirstViewController.swift */; };
+		4F0B6DA81F53F8FD00A10B87 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0B6DA71F53F8FD00A10B87 /* SecondViewController.swift */; };
+		4F0B6DAB1F53F8FD00A10B87 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F0B6DA91F53F8FD00A10B87 /* Main.storyboard */; };
+		4F0B6DAD1F53F8FD00A10B87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F0B6DAC1F53F8FD00A10B87 /* Assets.xcassets */; };
+		4F0B6DB01F53F8FD00A10B87 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F0B6DAE1F53F8FD00A10B87 /* LaunchScreen.storyboard */; };
+		4FBC82701F83C70A008FB12A /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FBC826F1F83C70A008FB12A /* ChartView.swift */; };
+		4FBC82761F846CC9008FB12A /* DateChartText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FBC82751F846CC9008FB12A /* DateChartText.swift */; };
+		4FBC82781F8640C0008FB12A /* Env.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FBC82771F8640C0008FB12A /* Env.swift */; };
+		4FBC827A1F8640E1008FB12A /* ExamplesDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FBC82791F8640E1008FB12A /* ExamplesDefaults.swift */; };
+		4FBC827C1F864267008FB12A /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FBC827B1F864267008FB12A /* TabBarView.swift */; };
+		4FCB21AC1F676DBE006F5316 /* recordingListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FCB21AB1F676DBE006F5316 /* recordingListView.swift */; };
+		4FCB21AE1F6772D7006F5316 /* RecordingCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FCB21AD1F6772D7006F5316 /* RecordingCollectionViewCell.swift */; };
+		4FD42D941F6E4A7200CF7101 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FD42D891F6E4A7200CF7101 /* FMDatabase.m */; };
+		4FD42D951F6E4A7200CF7101 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FD42D8B1F6E4A7200CF7101 /* FMDatabaseAdditions.m */; };
+		4FD42D961F6E4A7200CF7101 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FD42D8D1F6E4A7200CF7101 /* FMDatabasePool.m */; };
+		4FD42D971F6E4A7200CF7101 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FD42D8F1F6E4A7200CF7101 /* FMDatabaseQueue.m */; };
+		4FD42D981F6E4A7200CF7101 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FD42D921F6E4A7200CF7101 /* FMResultSet.m */; };
+		4FD42D991F6E4A7200CF7101 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4FD42D931F6E4A7200CF7101 /* Info.plist */; };
+		4FD42D9C1F6E4B1A00CF7101 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FD42D9B1F6E4B1A00CF7101 /* libsqlite3.0.tbd */; };
+		4FD42DA01F6E4BFF00CF7101 /* DBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD42D9F1F6E4BFF00CF7101 /* DBManager.swift */; };
+		4FD42DA81F70B07900CF7101 /* HistoryReocrdCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD42DA71F70B07900CF7101 /* HistoryReocrdCollectionView.swift */; };
+		4FD42DAA1F70B3BB00CF7101 /* HistoryRecordCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD42DA91F70B3BB00CF7101 /* HistoryRecordCollectionViewCell.swift */; };
+		4FD42DAC1F70C34500CF7101 /* HistoryRecordInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD42DAB1F70C34500CF7101 /* HistoryRecordInfo.swift */; };
+		4FD440E81F8747CD0027C392 /* MonthYearPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD440E71F8747CD0027C392 /* MonthYearPickerView.swift */; };
+		7FE0B89C02CC3D9F5B1B1CAF /* Pods_BirdMonitorSystem.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D535B552DBF65B9E179D2156 /* Pods_BirdMonitorSystem.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		258FAB21F993325451D992F9 /* Pods-BirdMonitorSystem.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BirdMonitorSystem.release.xcconfig"; path = "Pods/Target Support Files/Pods-BirdMonitorSystem/Pods-BirdMonitorSystem.release.xcconfig"; sourceTree = "<group>"; };
+		4F0B6DA01F53F8FD00A10B87 /* BirdMonitorSystem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BirdMonitorSystem.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F0B6DA31F53F8FD00A10B87 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4F0B6DA51F53F8FD00A10B87 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		4F0B6DA71F53F8FD00A10B87 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		4F0B6DAA1F53F8FD00A10B87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4F0B6DAC1F53F8FD00A10B87 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4F0B6DAF1F53F8FD00A10B87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4F0B6DB11F53F8FD00A10B87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FBC826F1F83C70A008FB12A /* ChartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
+		4FBC82751F846CC9008FB12A /* DateChartText.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateChartText.swift; sourceTree = "<group>"; };
+		4FBC82771F8640C0008FB12A /* Env.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Env.swift; path = "../../SwiftCharts-master/Examples/Examples/Env.swift"; sourceTree = "<group>"; };
+		4FBC82791F8640E1008FB12A /* ExamplesDefaults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ExamplesDefaults.swift; path = "../../SwiftCharts-master/Examples/Examples/ExamplesDefaults.swift"; sourceTree = "<group>"; };
+		4FBC827B1F864267008FB12A /* TabBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+		4FCB21AB1F676DBE006F5316 /* recordingListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = recordingListView.swift; sourceTree = "<group>"; };
+		4FCB21AD1F6772D7006F5316 /* RecordingCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordingCollectionViewCell.swift; sourceTree = "<group>"; };
+		4FD42D761F6E4A1E00CF7101 /* BirdMonitorSystem-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BirdMonitorSystem-Bridging-Header.h"; sourceTree = "<group>"; };
+		4FD42D881F6E4A7200CF7101 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		4FD42D891F6E4A7200CF7101 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		4FD42D8A1F6E4A7200CF7101 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		4FD42D8B1F6E4A7200CF7101 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		4FD42D8C1F6E4A7200CF7101 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		4FD42D8D1F6E4A7200CF7101 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		4FD42D8E1F6E4A7200CF7101 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		4FD42D8F1F6E4A7200CF7101 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		4FD42D901F6E4A7200CF7101 /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		4FD42D911F6E4A7200CF7101 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		4FD42D921F6E4A7200CF7101 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		4FD42D931F6E4A7200CF7101 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FD42D9B1F6E4B1A00CF7101 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		4FD42D9F1F6E4BFF00CF7101 /* DBManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DBManager.swift; sourceTree = "<group>"; };
+		4FD42DA71F70B07900CF7101 /* HistoryReocrdCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryReocrdCollectionView.swift; sourceTree = "<group>"; };
+		4FD42DA91F70B3BB00CF7101 /* HistoryRecordCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryRecordCollectionViewCell.swift; sourceTree = "<group>"; };
+		4FD42DAB1F70C34500CF7101 /* HistoryRecordInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryRecordInfo.swift; sourceTree = "<group>"; };
+		4FD440E71F8747CD0027C392 /* MonthYearPickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonthYearPickerView.swift; sourceTree = "<group>"; };
+		D535B552DBF65B9E179D2156 /* Pods_BirdMonitorSystem.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BirdMonitorSystem.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC3B204BF063E414FBD056AD /* Pods-BirdMonitorSystem.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BirdMonitorSystem.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BirdMonitorSystem/Pods-BirdMonitorSystem.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4F0B6D9D1F53F8FD00A10B87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FD42D9C1F6E4B1A00CF7101 /* libsqlite3.0.tbd in Frameworks */,
+				7FE0B89C02CC3D9F5B1B1CAF /* Pods_BirdMonitorSystem.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3BF1C54980FA3C4D861EF210 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EC3B204BF063E414FBD056AD /* Pods-BirdMonitorSystem.debug.xcconfig */,
+				258FAB21F993325451D992F9 /* Pods-BirdMonitorSystem.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4F0B6D971F53F8FD00A10B87 = {
+			isa = PBXGroup;
+			children = (
+				4F0B6DA21F53F8FD00A10B87 /* BirdMonitorSystem */,
+				4F0B6DA11F53F8FD00A10B87 /* Products */,
+				4FD42D9A1F6E4B1A00CF7101 /* Frameworks */,
+				3BF1C54980FA3C4D861EF210 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		4F0B6DA11F53F8FD00A10B87 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4F0B6DA01F53F8FD00A10B87 /* BirdMonitorSystem.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4F0B6DA21F53F8FD00A10B87 /* BirdMonitorSystem */ = {
+			isa = PBXGroup;
+			children = (
+				4FD440E71F8747CD0027C392 /* MonthYearPickerView.swift */,
+				4FBC82791F8640E1008FB12A /* ExamplesDefaults.swift */,
+				4FBC82771F8640C0008FB12A /* Env.swift */,
+				4FD42D9F1F6E4BFF00CF7101 /* DBManager.swift */,
+				4FD42D871F6E4A7200CF7101 /* fmdb */,
+				4F0B6DA31F53F8FD00A10B87 /* AppDelegate.swift */,
+				4F0B6DA51F53F8FD00A10B87 /* FirstViewController.swift */,
+				4F0B6DA71F53F8FD00A10B87 /* SecondViewController.swift */,
+				4F0B6DA91F53F8FD00A10B87 /* Main.storyboard */,
+				4F0B6DAC1F53F8FD00A10B87 /* Assets.xcassets */,
+				4F0B6DAE1F53F8FD00A10B87 /* LaunchScreen.storyboard */,
+				4F0B6DB11F53F8FD00A10B87 /* Info.plist */,
+				4FCB21AB1F676DBE006F5316 /* recordingListView.swift */,
+				4FCB21AD1F6772D7006F5316 /* RecordingCollectionViewCell.swift */,
+				4FD42D761F6E4A1E00CF7101 /* BirdMonitorSystem-Bridging-Header.h */,
+				4FD42DA71F70B07900CF7101 /* HistoryReocrdCollectionView.swift */,
+				4FD42DA91F70B3BB00CF7101 /* HistoryRecordCollectionViewCell.swift */,
+				4FD42DAB1F70C34500CF7101 /* HistoryRecordInfo.swift */,
+				4FBC826F1F83C70A008FB12A /* ChartView.swift */,
+				4FBC82751F846CC9008FB12A /* DateChartText.swift */,
+				4FBC827B1F864267008FB12A /* TabBarView.swift */,
+			);
+			path = BirdMonitorSystem;
+			sourceTree = "<group>";
+		};
+		4FD42D871F6E4A7200CF7101 /* fmdb */ = {
+			isa = PBXGroup;
+			children = (
+				4FD42D881F6E4A7200CF7101 /* FMDatabase.h */,
+				4FD42D891F6E4A7200CF7101 /* FMDatabase.m */,
+				4FD42D8A1F6E4A7200CF7101 /* FMDatabaseAdditions.h */,
+				4FD42D8B1F6E4A7200CF7101 /* FMDatabaseAdditions.m */,
+				4FD42D8C1F6E4A7200CF7101 /* FMDatabasePool.h */,
+				4FD42D8D1F6E4A7200CF7101 /* FMDatabasePool.m */,
+				4FD42D8E1F6E4A7200CF7101 /* FMDatabaseQueue.h */,
+				4FD42D8F1F6E4A7200CF7101 /* FMDatabaseQueue.m */,
+				4FD42D901F6E4A7200CF7101 /* FMDB.h */,
+				4FD42D911F6E4A7200CF7101 /* FMResultSet.h */,
+				4FD42D921F6E4A7200CF7101 /* FMResultSet.m */,
+				4FD42D931F6E4A7200CF7101 /* Info.plist */,
+			);
+			path = fmdb;
+			sourceTree = "<group>";
+		};
+		4FD42D9A1F6E4B1A00CF7101 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4FD42D9B1F6E4B1A00CF7101 /* libsqlite3.0.tbd */,
+				D535B552DBF65B9E179D2156 /* Pods_BirdMonitorSystem.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4F0B6D9F1F53F8FD00A10B87 /* BirdMonitorSystem */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F0B6DB41F53F8FD00A10B87 /* Build configuration list for PBXNativeTarget "BirdMonitorSystem" */;
+			buildPhases = (
+				1E00B188829CA28FB06489CD /* [CP] Check Pods Manifest.lock */,
+				4F0B6D9C1F53F8FD00A10B87 /* Sources */,
+				4F0B6D9D1F53F8FD00A10B87 /* Frameworks */,
+				4F0B6D9E1F53F8FD00A10B87 /* Resources */,
+				C7A3089AE3403030D29F8944 /* [CP] Embed Pods Frameworks */,
+				FB8F6ECDB8124693693F8645 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BirdMonitorSystem;
+			productName = BirdMonitorSystem;
+			productReference = 4F0B6DA01F53F8FD00A10B87 /* BirdMonitorSystem.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4F0B6D981F53F8FD00A10B87 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = bys;
+				TargetAttributes = {
+					4F0B6D9F1F53F8FD00A10B87 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = K25N29TJGT;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 4F0B6D9B1F53F8FD00A10B87 /* Build configuration list for PBXProject "BirdMonitorSystem" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4F0B6D971F53F8FD00A10B87;
+			productRefGroup = 4F0B6DA11F53F8FD00A10B87 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4F0B6D9F1F53F8FD00A10B87 /* BirdMonitorSystem */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4F0B6D9E1F53F8FD00A10B87 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FD42D991F6E4A7200CF7101 /* Info.plist in Resources */,
+				4F0B6DB01F53F8FD00A10B87 /* LaunchScreen.storyboard in Resources */,
+				4F0B6DAD1F53F8FD00A10B87 /* Assets.xcassets in Resources */,
+				4F0B6DAB1F53F8FD00A10B87 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1E00B188829CA28FB06489CD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BirdMonitorSystem-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C7A3089AE3403030D29F8944 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-BirdMonitorSystem/Pods-BirdMonitorSystem-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SwiftCharts/SwiftCharts.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftCharts.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BirdMonitorSystem/Pods-BirdMonitorSystem-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB8F6ECDB8124693693F8645 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BirdMonitorSystem/Pods-BirdMonitorSystem-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4F0B6D9C1F53F8FD00A10B87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F0B6DA81F53F8FD00A10B87 /* SecondViewController.swift in Sources */,
+				4FBC82781F8640C0008FB12A /* Env.swift in Sources */,
+				4F0B6DA41F53F8FD00A10B87 /* AppDelegate.swift in Sources */,
+				4FBC82761F846CC9008FB12A /* DateChartText.swift in Sources */,
+				4FCB21AC1F676DBE006F5316 /* recordingListView.swift in Sources */,
+				4FD42D941F6E4A7200CF7101 /* FMDatabase.m in Sources */,
+				4FBC827C1F864267008FB12A /* TabBarView.swift in Sources */,
+				4FD42D981F6E4A7200CF7101 /* FMResultSet.m in Sources */,
+				4F0B6DA61F53F8FD00A10B87 /* FirstViewController.swift in Sources */,
+				4FD42D961F6E4A7200CF7101 /* FMDatabasePool.m in Sources */,
+				4FD42D951F6E4A7200CF7101 /* FMDatabaseAdditions.m in Sources */,
+				4FBC82701F83C70A008FB12A /* ChartView.swift in Sources */,
+				4FD42DA81F70B07900CF7101 /* HistoryReocrdCollectionView.swift in Sources */,
+				4FBC827A1F8640E1008FB12A /* ExamplesDefaults.swift in Sources */,
+				4FD42DAA1F70B3BB00CF7101 /* HistoryRecordCollectionViewCell.swift in Sources */,
+				4FCB21AE1F6772D7006F5316 /* RecordingCollectionViewCell.swift in Sources */,
+				4FD440E81F8747CD0027C392 /* MonthYearPickerView.swift in Sources */,
+				4FD42DAC1F70C34500CF7101 /* HistoryRecordInfo.swift in Sources */,
+				4FD42D971F6E4A7200CF7101 /* FMDatabaseQueue.m in Sources */,
+				4FD42DA01F6E4BFF00CF7101 /* DBManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4F0B6DA91F53F8FD00A10B87 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F0B6DAA1F53F8FD00A10B87 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4F0B6DAE1F53F8FD00A10B87 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F0B6DAF1F53F8FD00A10B87 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4F0B6DB21F53F8FD00A10B87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		4F0B6DB31F53F8FD00A10B87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4F0B6DB51F53F8FD00A10B87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC3B204BF063E414FBD056AD /* Pods-BirdMonitorSystem.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = K25N29TJGT;
+				INFOPLIST_FILE = BirdMonitorSystem/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.bys.BirdMonitorSystem;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BirdMonitorSystem/BirdMonitorSystem-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		4F0B6DB61F53F8FD00A10B87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 258FAB21F993325451D992F9 /* Pods-BirdMonitorSystem.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = K25N29TJGT;
+				INFOPLIST_FILE = BirdMonitorSystem/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.bys.BirdMonitorSystem;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BirdMonitorSystem/BirdMonitorSystem-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4F0B6D9B1F53F8FD00A10B87 /* Build configuration list for PBXProject "BirdMonitorSystem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F0B6DB21F53F8FD00A10B87 /* Debug */,
+				4F0B6DB31F53F8FD00A10B87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F0B6DB41F53F8FD00A10B87 /* Build configuration list for PBXNativeTarget "BirdMonitorSystem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F0B6DB51F53F8FD00A10B87 /* Debug */,
+				4F0B6DB61F53F8FD00A10B87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4F0B6D981F53F8FD00A10B87 /* Project object */;
+}
